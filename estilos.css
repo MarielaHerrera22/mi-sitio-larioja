@@ -1,0 +1,97 @@
+/* Tipografía general */
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #2c2c2c;
+    background-color: #fdf6ec;
+}
+
+/* Header */
+header {
+    background-color: #8b1a1a;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 2.2em;
+    font-family: Georgia, serif;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #f5d9a8;
+}
+
+/* Navegación */
+nav {
+    background-color: #c0392b;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5d9a8;
+}
+
+/* Títulos */
+h2 {
+    font-size: 1.6em;
+    color: #8b1a1a;
+    font-family: Georgia, serif;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #c0392b;
+    font-family: Georgia, serif;
+}
+
+/* Párrafos */
+p {
+    font-size: 1em;
+    color: #2c2c2c;
+}
+
+/* Listas */
+ul, ol {
+    font-size: 1em;
+    color: #2c2c2c;
+}
+
+/* Tabla */
+table {
+    font-size: 0.95em;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    color: #2c2c2c;
+}
+
+th {
+    background-color: #8b1a1a;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+td {
+    background-color: #fff3e0;
+    color: #2c2c2c;
+}
+
+td:nth-child(7), td:nth-child(8) {
+    background-color: #d4edda;
+    color: #155724;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #8b1a1a;
+    color: #f5d9a8;
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+}
